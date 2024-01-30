@@ -21,7 +21,7 @@ VALUES
 
 UPDATE students2
 SET first_name = 'Ivan', middle_name = 'Ingram', last_name = 'Howard', age = 25, location = 'Bulacan'
-WHERE id = 6;
+WHERE id = 1;
 
 DELETE FROM students2
 WHERE id = (SELECT MAX(id) FROM students2);
