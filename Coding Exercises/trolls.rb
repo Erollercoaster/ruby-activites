@@ -12,6 +12,4 @@ def remove_vowels(input_string)
   end
   
   # test case
-  input_string = "This website is for losers LOL!"
-  result = remove_vowels(input_string)
-  puts result
+  puts remove_vowels ("This website is for losers LOL!")
